@@ -1,0 +1,58 @@
+#main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-image: url("download.jpg");
+  background-color: grey;
+
+}
+
+
+#header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+
+#add-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+ 
+}
+
+#title {
+  font-size: 50px;
+}
+
+#add-input {
+  flex-basis: 30%;
+  height: 30px;
+}
+
+#add-button {
+  font-size: 20px;
+}
+
+#list-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+
+}
+#list {
+  list-style-type: none;
+  font-size: 23px;
+  flex-basis: 44%;
+  margin: 0;
+  padding: 0;
+}
+
+
+input.strike ~ span {
+  text-decoration: line-through;
+}
